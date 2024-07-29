@@ -1,9 +1,14 @@
-import React from 'react'
+import Hero from '@/components/Hero';
+import HomeProperties from '@/components/HomeProperties';
+import InfoBoxes from '@/components/InfoBoxes';
 
 const HomePage = () => {
+  // console.log(process.env.MONGODB_URI);
   return (
     <>
-    <div className='bg-yellow-500'>HomePage</div>
+     <Hero/>
+     <InfoBoxes/>
+     <HomeProperties/>
     </>
   )
 }
